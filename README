@@ -1,3 +1,18 @@
+Evidencia de Aprendizaje 1. API REST - NodeJs
+
+Curso: Proyecto Integrado II - Desarrollo de Aplicaciones Web 
+
+
+Profesor: Federico Henao
+
+Elaborado por: 
+Daniela Diaz Gomez
+
+
+Institución Universitaria Digital de Antioquia
+
+
+
 El proyecto consiste en un API REST desarrollada con Node.js, Express y MySQL para gestionar información de películas.
 
 Este proyecto permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre diferentes módulos relacionados con películas.
