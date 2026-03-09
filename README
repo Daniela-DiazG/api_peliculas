@@ -1,0 +1,139 @@
+El proyecto consiste en un API REST desarrollada con Node.js, Express y MySQL para gestionar información de películas.
+
+Este proyecto permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre diferentes módulos relacionados con películas.
+
+---
+
+# Tecnologías utilizadas
+- Node.js
+- Express.js
+- MySQL
+- Postman (para pruebas de API)
+
+---
+
+# Instalación del proyecto
+1. Clonar el repositorio
+git clone https://github.com/tuusuario/api-peliculas.git
+
+2. Entrar al proyecto
+cd api-peliculas
+
+3. Instalar dependencias
+npm install
+
+4. Configurar la base de datos en MySQL
+Importar el archivo:
+database/database.sql
+
+5. Ejecutar el servidor
+npm start
+
+Servidor funcionando en:
+
+http://localhost:3000
+
+---
+# Estructura del proyecto
+
+api-peliculas
+│
+config
+│   db.js
+│
+controllers
+│   generoController.js
+│   peliculaController.js
+│   productoraController.js
+│   directorController.js
+│   actorController.js
+│
+routes
+│   generoRoutes.js
+│   peliculaRoutes.js
+│   productoraRoutes.js
+│   directorRoutes.js
+│   actorRoutes.js
+│
+database
+│   database.sql
+│
+server.js
+package.json
+README.md
+
+---
+
+# Módulos de la API
+
+La API contiene 5 módulos principales:
+
+1. Géneros
+2. Productoras
+3. Películas
+4. Directores
+5. Actores
+
+Cada módulo tiene operaciones CRUD completas.
+
+---
+
+# Endpoints de la API
+
+## Géneros
+
+GET /generos  
+Obtiene todos los géneros
+
+GET /generos/:id  
+Obtiene un género por ID
+
+POST /generos  
+Crea un nuevo género
+
+PUT /generos/:id  
+Actualiza un género
+
+DELETE /generos/:id  
+Elimina un género
+
+---
+
+## Productoras
+
+GET /productoras
+
+GET /productoras/:id
+
+POST /productoras
+
+PUT /productoras/:id
+
+DELETE /productoras/:id
+
+---
+
+## Películas
+
+GET /peliculas
+
+GET /peliculas/:id
+
+POST /peliculas
+
+PUT /peliculas/:id
+
+DELETE /peliculas/:id
+
+---
+
+# Ejemplo JSON para POST
+
+Crear un género:
+
+POST /generos
+
+{
+ "nombre": "Acción",
+ "estado": "activo"
+}
