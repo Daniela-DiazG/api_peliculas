@@ -1,0 +1,6 @@
+export const dashboard = '/'
+export const generosPath= '/generos'
+export const directoresPath= '/directores'
+export const productorasPath= '/productoras'
+export const tiposPath= '/tipos'
+export const peliculasPath= '/media'

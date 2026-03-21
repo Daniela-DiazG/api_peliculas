@@ -1,20 +1,12 @@
 {
-  "name": "api-peliculas",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "fullstack-app",
+  "version": "2.0.0",
+  "description": "Evidencia de aprendizaje 2: Front End - ReactJs",
+  "author": "Daniela Diaz Gomez",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "body-parser": "^2.2.2",
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "mysql2": "^3.19.0",
-    "nodemon": "^3.1.14"
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }

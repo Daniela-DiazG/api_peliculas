@@ -1,11 +1,11 @@
 const express = require("express");
 const cors = require("cors");
 
-const generoRoutes = require("./routes/generoRoutes");
-const directorRoutes = require("./routes/directorRoutes");
-const productoraRoutes = require("./routes/productoraRoutes");
-const tipoRoutes = require("./routes/tipoRoutes");
-const mediaRoutes = require("./routes/mediaRoutes");
+const generoRoutes = require("./src/routes/generoRoutes");
+const directorRoutes = require("./src/routes/directorRoutes");
+const productoraRoutes = require("./src/routes/productoraRoutes");
+const tipoRoutes = require("./src/routes/tipoRoutes");
+const mediaRoutes = require("./src/routes/mediaRoutes");
 
 const app = express();
 
