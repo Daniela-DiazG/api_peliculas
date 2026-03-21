@@ -1,4 +1,5 @@
-Evidencia de Aprendizaje 1. API REST - NodeJs
+Evidencia de Aprendizaje 2. Front End - ReactJs
+
 
 Curso: Proyecto Integrado II - Desarrollo de Aplicaciones Web 
 
@@ -13,7 +14,7 @@ Institución Universitaria Digital de Antioquia
 
 
 
-El proyecto consiste en un API REST desarrollada con Node.js, Express y MySQL para gestionar información de películas.
+El proyecto consiste en un API REST desarrollada con Node.js, Express y MySQL para gestionar información de películas y el frontend desarrollado en react.
 
 Este proyecto permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre diferentes módulos relacionados con películas.
 
